@@ -1,0 +1,67 @@
+body {
+    background-image: url("homebg.jpg");
+    font-family: sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+#head{
+        background-color: black;
+        color: white;
+}
+#cslink {
+    display: block;
+    text-align: center;
+    color: white;
+}
+#row-1 {
+    background-color: white;
+}
+#row-1 a{
+    color: black;
+}
+#row-2 {
+    background-color: black;
+}
+#row-2 a{
+    color: white;
+}
+#row-3 {
+    background-color: white;
+}
+#rhead {
+    font-size: 2em;
+}
+#row-3 a{
+    color: black;
+}
+#big {
+    font-size: 40px;
+    font-weight: bold;
+}
+#quote {
+    font-style: italic;
+    font-size: 18px;
+}
+span {
+    font-style: normal;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: lightseagreen;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    height: 450px;
+}
+h2:nth-of-type(1) {
+    text-align: center;
+}
+li {
+    font-size: 20px;
+}
