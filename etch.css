@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(74, 197, 191);
+    font-family: 'Do Hyeon', sans-serif;
+}
+h1 {
+    color: gold;
+    text-align: center;;
+}
+.squares {
+    background-color: rgb(255, 255, 255);
+
+}
+#reset {
+    font-size: 18px;
+   
+}
+#container {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(16,35px);
+    grid-auto-rows: minmax(35px, 35px);
+    justify-content: center;
+}
+.checked {
+    background-color: black;
+}
+#size {
+    font-size: 18px;
+}
+#randomColors {
+    font-size: 18px;
+}
+button {
+    font-size: 18px;
+    font-weight: bold;
+}
+#buttons {
+    grid-template-columns: repeat(5,150px);
+    justify-content: center;
+    grid-gap: 10px;
+    display: grid;
+    
+}
+.clicked {
+    background: purple;
+    color: gold;
+}
+h2 {
+    text-align: center;
+    color: gold;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
